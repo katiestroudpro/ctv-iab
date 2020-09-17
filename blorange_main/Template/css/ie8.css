@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS ie8 */
+
+/*****************************
+INDEX 
+*****************************/
+.ie8 #mainSlider li {
+	background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/main-slider-box-blue.png',sizingMethod='scale');
+}
+
+.ie8 #mainSlider li.roundabout-in-focus {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/main-slider-focusbox-blue.png',sizingMethod='scale');
+}
+
+.ie8 #mainSlider li span {
+	padding-bottom: 4%;
+}
+
+.ie8 #mainSlides li img,
+.ie8 #mainSlider li img {
+    background: transparent;
+    -ms-filter: “progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)”; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); 
+    zoom: 1;
+}
+
+.ie8 #footerRight ul#socialize li {
+	margin-right: 14px;
+}
+
+.ie8 #mainSlides li img {
+    background: transparent; 
+    -ms-filter: “progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)”; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); 
+    zoom: 1;
+}
+
+/*****************************
+ABOUT 
+*****************************/
+.ie8 header#secondaryHeader h1 span {
+	margin-top: -70px;
+}
+
+/*****************************
+PORTFOLIO 
+*****************************/
+.ie8 #portfolio ul.pagination {
+	margin-top: 40px;
+}
+
+/*****************************
+BLOG
+*****************************/
+.ie8 .blogPostInfo ul {
+	display: block;
+	width: 80%;
+	height: 13px;
+	overflow: hidden;
+	float: left;
+}
+
+.ie8 .blogArchives ul li a,
+.ie8 .blogCategories ul li a {
+	line-height: 22px;
+}
+
+.ie8 .blogPost .blogPostTags {
+	overflow: visible;
+}
+
+.ie8 #contact form input, 
+.ie8 .postComments form input {
+	height: 20px;
+}
+
+.ie8 #contact form input#submitContact,
+.ie8 .postComments form input#submitPostComment {
+	line-height: 22px;
+}
